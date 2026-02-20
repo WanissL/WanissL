@@ -1,3 +1,7 @@
+<p align="center">
+  <img src= "IMG_0524.jpeg" alt="Banner" width="100%">
+</p>
+
 <h1 align="center">Hi 👋, I'm Waniss Ladj</h1>
 <h3 align="center">Passionate by Finance & Data Science</h3>
 
