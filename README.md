@@ -1,5 +1,5 @@
 <p align="center">
-  <img src= "istockphoto-1089222846-612x612-1.JPEG" alt="Banner" width="100%">
+  <img src= "data" alt="Banner" width="100%">
 </p>
 
 <h1 align="center">Hi 👋, I'm Waniss Ladj</h1>
