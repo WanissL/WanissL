@@ -1,64 +1,55 @@
-<p align="center">
-  <img src="data.jpg" alt="Banner" width="100%">
-</p>
+# Wanisse Ladj
+### Finance, Quantitative Modeling & Data Analytics
+**MSc Finance & Big Data @ NEOMA Business School** | **Masters en Finance & Recherche Opérationnelle**
 
-<h1 align="center">Hi 👋, I'm Waniss Ladj</h1>
-<h3 align="center">MSc Finance & Big Data Student @ NEOMA BS | Finance, Operations Research & Data Science</h3>
+Bienvenue sur mon portfolio technique. À l'interface de la **Finance**, des **Méthodes Quantitatives** et de la **Data Science**, je conçois des outils d'aide à la décision, des tableaux de bord financiers et des modèles prédictifs orientés performance métier.
 
-<p align="center">
-  <a href="mailto:ladjwaniss@gmail.com">
-    <img src="https://img.shields.io/badge/Email-ladjwaniss%40gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
-  </a>
-  <a href="https://www.linkedin.com/in/TON-PROFIL-LINKEDIN/" target="_blank">
-    <img src="https://img.shields.io/badge/LinkedIn-Waniss%20Ladj-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
-  </a>
-</p>
+Mon approche repose sur un principe simple : **la technique n'a de valeur que si elle éclaire une décision financière ou opérationnelle.** Qu'il s'agisse d'isoler des effets prix/volume sous Power BI, de structurer des requêtes SQL complexes ou de déployer un pipeline Scikit-Learn, je privilégie la rigueur méthodologique, l'interprétabilité des résultats et la reproductibilité.
+
+🎯 **Objectif actuel :** À la recherche d'une **alternance ** en **Finance & Data, Contrôle de Gestion / FP&A, Business Intelligence, Data Analytics ou Analyse de Risque**.
 
 ---
 
-### 👨‍💻 About Me
+## Piliers de Compétences & Valeur Ajoutée
 
-- 🎓 Currently pursuing an **MSc in Finance & Big Data** at **NEOMA Business School**, holding two Master's degrees in **Finance** and **Operations Research**.
-- 💡 Passionate about bridging the gap between **Financial Analysis, Quantitative Modeling, and Machine Learning** to drive data-informed business decisions.
-- 🛠️ Strong hands-on experience in **End-to-End Machine Learning pipelines**, **Ensemble Methods (Stacking, Voting, Boosting)**, **Feature Engineering**, and **SQL Data Analysis**.
-- 📫 Reach me at: **ladjwaniss@gmail.com**
+* 📊 **Finance, Pilotage de la Performance & BI**
+  * Analyse du chiffre d'affaires, décomposition des moteurs de revenus (effets volume/mix/prix), suivi des KPIs commerciaux et financiers (*AOV, UPO, marges*).
+  * Conception de tableaux de bord décisionnels sous **Power BI** : modélisation en étoile (*Star Schema*), mesures **DAX** sécurisées et visualisation orientée *Executive*.
+* 🧮 **Recherche Opérationnelle & Modélisation Quantitative**
+  * Modélisation mathématique, probabilités, statistiques appliquées, gestion des risques et prévision de la demande sur séries temporelles.
+  * Traitement rigoureux de la multicolinéarité, encodage trigonométrique de variables cycliques ($\sin/\cos$) et validation croisée chronologique ou stratifiée.
+* ⚙️ **Ingénierie Analytique, SQL & Machine Learning**
+  * **Python** appliqué à la Data : manipulation et nettoyage (`pandas`, `numpy`), visualisation (`matplotlib`, `seaborn`), modélisation supervisée (`scikit-learn`).
+  * Conception de **Pipelines de bout en bout** (`ColumnTransformer`, imputation, standardisation, encodage ordinal/one-hot) garantissant l'absence de *data leakage*.
+  * **SQL analytique :** sous-requêtes complexes, CTEs, fonctions de fenêtrage (`ROW_NUMBER()`, `DENSE_RANK()`, `LAG/LEAD`) et agrégations glissantes / cumulées.
 
 ---
 
-### 🏆 Featured Data Science Projects
+## Sélection de Projets Réalisés
 
-| Project | Domain | Key Techniques & Models | Key Results |
+Chaque dépôt ci-dessous contient l'intégralité du code ou du fichier source, le jeu de données associé et une documentation détaillée présentant le contexte métier, la méthodologie et les limites analytiques.
+
+| Projet & Lien vers le Dépôt | Domaine & Cible Métier | Stack Vérifiée | Problématique & Résultats Clés |
 | :--- | :--- | :--- | :--- |
-| 📈 **[Bank Term Deposit Subscription](Lien_vers_ton_repo_1)** | Banking & Marketing Classification | `Scikit-Learn Pipelines`, `SMOTE`, `Random Forest`, `XGBoost`, `Hyperparameter Tuning` | Optimized recall & F1-score on highly imbalanced banking client data to target high-conversion prospects. |
-| 🚲 **[London Bike Sharing Demand](Lien_vers_ton_repo_2)** | Urban Mobility Regression | `Feature Engineering`, `StackingRegressor`, `HistGradientBoosting`, `Random Forest`, `XGBoost` | Achieved **$R^2 > 0.95$** predicting hourly bike demand using temporal, weather, and cyclical features. |
-| 🎓 **[Student Dropout & Academic Success](Lien_vers_ton_repo_3)** | Multiclass Classification | `ColumnTransformer`, `Target Encoding`, `Voting & Stacking Classifiers`, `Permutation Importance` | Reached **0.86 ROC-AUC** & **75.7% Accuracy** across 3 imbalanced classes to detect at-risk students early. |
+| 📊 **[US Retail Electronics — Executive BI Dashboard](https://github.com/WanissL/us-electronics-sales-bi-dashboard)** | **Business Intelligence & Contrôle de Gestion** | `Power BI` `DAX` `Star Schema` `KPI Design` | **Pilotage d'un réseau de distribution ($34,49M de CA, 178k commandes) :**<br>• Analyse de la concentration du CA (61 % généré par le hardware haut de gamme vs produits d'appel à fort volume).<br>• Identification d'une saisonnalité marquée au T4 (+153 % entre janvier et décembre) et d'une distribution horaire bimodale (pics à 12h et 19h).<br>• Évaluation du panier moyen (**AOV : 193,30 $**) et de la vente croisée (**UPO : 1,17**). |
+| 📈 **[London Bike-Sharing Demand Forecasting](https://github.com/WanissL/london-bike-demand-forecasting)** | **Modélisation Quantitative & Prévision de Demande** | `Python` `Scikit-Learn` `Random Forest` `Time Series` | **Prévision horaire de flux urbains (17 414 observations) :**<br>• Création de variables cycliques ($\sin/\cos$ heure et mois) et élimination de la colinéarité thermique.<br>• Découpage chronologique strict (80/20) respectant la structure séquentielle.<br>• Benchmark de 4 algorithmes et optimisation par *GridSearchCV* : **$R^2 = 0,925$** et **RMSE = 309** sur le jeu de test. |
+| 🎯 **[Airline Passenger Satisfaction & Drivers](https://github.com/WanissL/airline-passenger-satisfaction-ml)** | **Machine Learning & Analyse Client / Risque** | `Python` `Scikit-Learn` `Pipelines` `Explainable AI` | **Classification supervisée et explicabilité sur 129 880 passagers :**<br>• Architecture `ColumnTransformer` automatisant le traitement de 22 variables mixtes.<br>• Comparaison de 6 modèles (LogReg, SVM, Decision Tree, Random Forest, Voting Classifier) : **Accuracy de 96,2 %**, **F1-Score de 0,956** et **ROC-AUC de 0,994**.<br>• Extraction des leviers opérationnels prioritaires via *Permutation Importance* (impact critique du parcours digital et de la connectivité à bord). |
+| 🧪 **[Python & Statistical Foundations](https://github.com/WanissL/Mes-challenges-Python)** | **Statistiques, Probabilités & Data Wrangling** | `Python` `Pandas` `NumPy` `Seaborn` `Jupyter` | **Socle mathématique et algorithmique :**<br>• Études probabilistes et statistiques appliquées sur données météorologiques.<br>• Défis d'analyse exploratoire (EDA), visualisation multi-variée et manipulation avancée de structures matricielles et tabulaires. |
 
 ---
 
-### 🛠️ Languages, Libraries & Tools
+## Parcours Académique & Formation
 
-#### **Programming & Databases**
-<p align="left">
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
-  <img src="https://img.shields.io/badge/SQL-CC2927?style=for-the-badge&logo=microsoft-sql-server&logoColor=white" alt="SQL" />
-  <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" alt="MySQL" />
-  <img src="https://img.shields.io/badge/MATLAB-0076A8?style=for-the-badge&logo=mathworks&logoColor=white" alt="MATLAB" />
-</p>
+* 🎓 **MSc Finance & Big Data** — *NEOMA Business School* (Paris / Reims)
+* 🎓 **Master en Finance** — *Université de Lille*
+* 🎓 **Master en Recherche Opérationnelle (Management, Risque & Négociation)** — *USTHB*
+* 💻 **Bootcamp Intensif Data Scientist (6 mois)** — *Code213*
 
-#### **Data Science & Machine Learning**
-<p align="left">
-  <img src="https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white" alt="Scikit-Learn" />
-  <img src="https://img.shields.io/badge/pandas-150458?style=for-the-badge&logo=pandas&logoColor=white" alt="Pandas" />
-  <img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white" alt="NumPy" />
-  <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white" alt="PyTorch" />
-  <img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white" alt="TensorFlow" />
-  <img src="https://img.shields.io/badge/Seaborn-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Seaborn" />
-  <img src="https://img.shields.io/badge/Matplotlib-11557c?style=for-the-badge&logo=python&logoColor=white" alt="Matplotlib" />
-</p>
+---
 
-#### **Environment & Versioning**
-<p align="left">
-  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git" />
-  <img src="https://img.shields.io/badge/VS%20Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white" alt="VS Code" />
-  <img src="https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white" alt="Jupyter" />
-</p>
+## Environnement Technique
+
+```text
+Langages & Requêtes   : Python (Pandas, NumPy, Scikit-Learn, SciPy), SQL (CTEs, Window Functions), DAX
+BI & Visualisation    : Microsoft Power BI Desktop, Matplotlib, Seaborn, Excel, Looker Studio (Data Studio)
+Outils & Workflow     : Git / GitHub, VS Code, Jupyter Notebook, Environnements macOS & Windows
